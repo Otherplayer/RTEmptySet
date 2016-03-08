@@ -23,7 +23,7 @@
     self.datas = [[NSMutableArray alloc] init];
     
     [self.view addSubview:self.tableView];
-    self.tableView.dataVerticalOffset = -100;
+//    self.tableView.dataVerticalOffset = -100;
     self.tableView.loadedImageName = @"ios_default_face";
     self.tableView.loading = YES;
     
@@ -43,7 +43,7 @@
 
     });
 
-    [self.tableView gzwLoading:^{
+    [self.tableView clickLoading:^{
         
         for (int i = 0; i < 100; i ++) {
             [self.datas addObject:@""];

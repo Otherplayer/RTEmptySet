@@ -100,7 +100,7 @@ id (^block)();
 -(UIColor *)buttonHighlightColor{
     return objc_getAssociatedObject(self, &buttonHighlightColorKey);
 }
--(void)gzwLoading:(loadingBlock)block{
+-(void)clickLoading:(loadingBlock)block{
     if (self.loadingClick) {
         block = self.loadingClick;
     }

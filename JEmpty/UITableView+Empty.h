@@ -20,7 +20,7 @@ typedef void (^loadingBlock)();
 @property (nonatomic, assign) CGFloat dataVerticalOffset;
 @property(nonatomic,copy) loadingBlock loadingClick;// 点击回调block的属性
 
--(void)gzwLoading:(loadingBlock)block;
+-(void)clickLoading:(loadingBlock)block;
 
 
 @end
