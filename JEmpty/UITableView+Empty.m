@@ -222,7 +222,7 @@ id (^block)();
 // 返回试图的垂直位置（调整整个试图的垂直位置）
 - (CGFloat)verticalOffsetForEmptyDataSet:(UIScrollView *)scrollView
 {
-    if (self.dataVerticalOffset != 0) {
+    if (self.dataVerticalOffset > 1) {
         return self.dataVerticalOffset;
     }
     return 0.0;
