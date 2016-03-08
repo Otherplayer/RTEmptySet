@@ -22,6 +22,7 @@
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         reachability = [[HYQHelperReachibility alloc] init];
+        reachability.isReachable = YES;
     });
     return reachability;
 }

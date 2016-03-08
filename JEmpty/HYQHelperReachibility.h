@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <AFNetworking.h>
 #define Internet [HYQHelperReachibility sharedInstance]
 
 @interface HYQHelperReachibility : NSObject
